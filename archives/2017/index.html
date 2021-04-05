@@ -23,7 +23,7 @@
     <meta name="description" content="冬的博客">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Little Forest.">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://example.com/archives/2017/index.html">
 <meta property="og:site_name" content="Little Forest.">
 <meta property="og:description" content="冬的博客">
 <meta property="og:locale" content="zh_CN">
@@ -89,6 +89,8 @@
 
     <link rel="preload" href= "/css/style.css?v=20180824" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <link rel="stylesheet" href= "/css/mobile.css?v=20180824" media="(max-width: 980px)">
+    
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     
     <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 /* This file is meant as a standalone workflow for
@@ -213,10 +215,8 @@
 <meta name="generator" content="Hexo 5.4.0"></head>
 
     
-        <body class="home-body">
     
-    
-<header class="header index-header">
+<header class="header">
 
     <div class="read-progress"></div>
     <div class="header-sidebar-menu">&#xe775;</div>
@@ -232,34 +232,21 @@
 
 
 
-
-height:50vh;
 ">
     
     <!-- 主页  -->
-    
-    
-    <!-- 文章页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/intro/index-bg.jpg)"></div>
+    <div class="site-intro-img" style="background-image: url(/)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
             
-            Little Forest.
-            <!-- 文章页  -->
-            
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
-            
-            
-                冬的博客
-            
-            <!-- 文章页  -->
             
         </p>
         <!-- 文章页meta -->
@@ -371,326 +358,26 @@ height:50vh;
     
     
     <article class="index-post">
-        <a class="abstract-title" href = "/2019/09/15/20190915-note/" >
+        <a class="abstract-title" href = "/2017/09/07/ndk-start/" >
             
-                <span>今日笔记-食莲人</span>
+                <span>ndk配置&amp;so生成</span>
         </a>
         <div class="abstract-content">
-            诗歌食莲人The Lotus-Eaters by Lord Alfred Tennyson
-(1809-1892)
-“Courage!” he said, and pointed toward the land,“鼓起勇气！”他说，指着前方的陆地，
-“This mounting wave will roll us shoreward soon.”“潮水很快会送我们靠岸登陆。”
-In the ...
+            环境配置主要需要配置的就是NDK（Native Development Kit），现在Android studio很便利，可以一键下载： file → setting → 按截图找到如下路径 → 选择NDK → 确定应用下载
+设置项目支持JNI打开gradle.properties，添加：
+1android.useDeprecatedNdk&#x3D;true
+打开local.propert...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
             <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/09/15</span>
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2017/09/07</span>
             </div>
             <!-- tags  -->
             
             <div class= abstract-tags >
     
-        <a class="post-tag" href="javascript:void(0);" data-tags = "daily">daily</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/09/15/20190915-music/" >
-            
-                <span>今日歌曲-心做し</span>
-        </a>
-        <div class="abstract-content">
-            
-
-ねぇ、もしも全て投げ舍てられたら呐，若然能将一切舍弃的话笑って生きることが楽になるの笑着活下去这样的事就会变的轻松吗？また胸が痛くなるから胸口又再疼痛起来呢もう何も言わないでよ够了什麼都不要说了啊
-ねぇ、もしも全て忘れられたなら呐，若然一切都能尽数忘却的话泣かないで生きることも楽になるの不再哭泣而活下去这事亦会变得轻松吗？でもそんな事出来ないから然而那般的事是不可能的呢もう何も见せないで...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/09/15</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "daily">daily</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/09/13/20190913-music/" >
-            
-                <span>今日歌曲-斑马、斑马</span>
-        </a>
-        <div class="abstract-content">
-            
-
-你的城市没有一扇门，为我打开啊斑马斑马 你不要睡着啦
-再给我看看你受伤的尾巴
-我不想去触碰你伤口的疤
-我只想掀起你的头发
-斑马斑马 你回到了你的家
-可我浪费着我寒冷的年华
-你的城市没有一扇门为我打开啊
-我终究还要回到路上
-斑马斑马，你来自南方的红色啊
-是否也是个动人的故事啊
-你隔壁的戏子如果不能留下
-谁会和你睡到天亮
-斑马斑马 你还记得我吗
-我是只会歌唱的傻瓜
-斑马斑马 你睡吧睡吧
-我会...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/09/13</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "daily">daily</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/09/05/agatha/" >
-            
-                <span>Agatha 鲜血のアガサ（一）</span>
-        </a>
-        <div class="abstract-content">
-            开新坑，从零开始做一个github客户端。
-主要思考1.最近这段时间没有什么开源产出。中秋之后，即将结束在腾讯的实习，趁着这段时间需求不多，开新坑做起来。2.做一个真正从0到1的项目，而不是从0到0.5。3.之前的开发思维略显稚嫩。在大厂的实习果然是提升自己的最好方式。
-之后会做一些前端的工作，专注一下博客建设。
-
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/09/05</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "daily">daily</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/05/17/novel-kubinashi/" >
-            
-                <span>首无-作祟之物</span>
-        </a>
-        <div class="abstract-content">
-            12345开一个新tag，标签就叫novel，写一些推理小说读后感。产生这个想法直到打开sublime之前，我都处于挺兴奋的状态。但是在动笔的时候却有点慌，略担心写不好书评----这些推理小说都是我热衷的作品，万一因为我描述不当导致混淆，坏了这些作品名声，就是我后悔的时候了。索性博客浏览数也没多少，我就记录下来了。内容会写一些我阅读过程中的问题，和脑洞，多少有点自言自语，权当是写给自己的笔记...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/05/17</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "novel">novel</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/01/13/20190113-pic/" >
-            
-                <span>今日图片</span>
-        </a>
-        <div class="abstract-content">
-            
-塞尔达！伊布！
-嘿嘿    
-
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/01/13</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "daily">daily</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2019/01/03/summary/" >
-            
-                <span>18年总结</span>
-        </a>
-        <div class="abstract-content">
-            去年年底，结束在ninebot为期半年的Android开发的实习，正式进入了实验室科研（搬砖）。实验室工作主要以机器学习为主，在工作之余也做了很多尝试，在这里做一下总结。比较杂乱，想哪写哪。
-machine learning 的学习年初和朋友系统学习了ml，看完了西瓜书监督学习的部分，花书半看半实验。为了验证成果组队打了talking data比赛，包括后来还参加了一个图像识别的比赛，成绩挺...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/01/03</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "daily">daily</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2018/12/19/summer-in-2003/" >
-            
-                <span>画像</span>
-        </a>
-        <div class="abstract-content">
-            
-小学时候，住在乡下，乡下有很多熟人。院子里种了一颗大杏树的翠翠娘娘，长得很帅哥哥跟长得很漂亮姐姐一家的东门娘娘家，不拘言笑的四爷爷，家里养了一棚子兔子的沟边上的小二哥哥一家，家里有红白机的琪琪，长得很壮脾气很好的小欢。还有住在城隍庙街那条胡同里德高望重的姥爷姥姥，住在被称为樊的村子另一头据说曾是地主家后院对面的奶奶。
-夏天里舅舅一家回来了，带着我最喜欢的弟弟，我们中午在姥姥家前后进的院子里...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/12/19</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "daily">daily</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2018/12/17/20181217-pic/" >
-            
-                <span>今日图片</span>
-        </a>
-        <div class="abstract-content">
-            廃工場の酒場路地
-
-pixiv コーラ
-
-
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/12/17</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "daily">daily</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2018/12/14/flora/" >
-            
-                <span>Flora图像风格迁移</span>
-        </a>
-        <div class="abstract-content">
-            Floraflora是我做的一个android app，主要是为了玩玩各种有意思的模块。
-封装了tensorflow lite图像风格转化的模型，测试的时候用了两个手机，是我跟同桌的旧手机，一款2015年的mi4，一款认不出型号的华为。在图像像素1024*1024时，mi4光荣OOM了，华为正常，也许是因为华为杀进程真的很厉害吧（笑）。反思了一下，主要是因为app本身功能比较杂，有tucho...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/12/14</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "retrofit">retrofit</a>
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "stylized">stylized</a>
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "tensorflow">tensorflow</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags = "ndk">ndk</a>
     
 </div>
             
@@ -699,161 +386,8 @@ pixiv コーラ
     
     <!-- paginator  -->
     
-    <nav class="page-nav">
-        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">NEXT &gt;</a>
-    </nav>
-    
 </main>
             <!-- profile -->
-            
-            <div class="profile">
-    <img class="profile-avatar" alt="avatar" src= /assets/avatar.jpg >
-    <div class="profile-name">冬</div>
-    
-    <div class="profile-signature">
-        Little Forest.
-    </div>
-    
-    
-    <div class="profile-social">
-        
-    
-        
-            
-                <a href="mailto:jascal@163.com" class="iconfont-archer email" title=email ></a>
-            
-        
-    
-        
-            
-                <a href="https://github.com/MashirosBaumkuchen" class="iconfont-archer github" target="_blank" title=github></a>
-            
-        
-    
-        
-            
-                <span class="iconfont-archer wechat" title=wechat>
-                  
-                  <img class="profile-qr" src="/assets/wechat.png" />
-                </span>
-            
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-
-    </div>
-    
-    
-        <div class="friends">
-            <div>FRIENDS</div>
-            
-                
-                    <span>
-                        <a href= http://853.bronya.net/ target="_black">853菌</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= http://bcpu.tech/ target="_black">BCPU</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= https://blog.kaaass.net/ target="_black">KAAAsS</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= http://terracecn.tk/blog/ target="_black">你发现了一只天台</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= http://daphnechang.github.io/ target="_black">花花丹</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= http://idiot.moe/ target="_black">蔡锶铎博客</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= http://blog.jinkunchen.com/ target="_black">卷卷有空格</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= http://www.naodo.cn/ target="_black">脑洞网</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= https://iferencz.cn/ target="_black">费伦兹</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= https://www.zhou92.com/ target="_black">哆啦Z梦</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= http://ad1024.tech/ target="_black">AD1024</a>
-                    </span>
-                
-            
-        </div>
-    
-    
-        <div class="about-me">
-            <a href = "/about" >ABOUT ME</a>
-        </div>
-    
-</div>
             
         </div>
         <footer class="footer footer-unloaded">
